@@ -16,6 +16,8 @@
 		7E9E0C0822A84A9000963E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E0C0622A84A9000963E42 /* LaunchScreen.storyboard */; };
 		7E9E0C1322A84A9100963E42 /* SwiftUItestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E0C1222A84A9100963E42 /* SwiftUItestTests.swift */; };
 		7E9E0C1E22A84A9100963E42 /* SwiftUItestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E0C1D22A84A9100963E42 /* SwiftUItestUITests.swift */; };
+		7E9E0C6822A858AB00963E42 /* ProfilePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E0C6722A858AB00963E42 /* ProfilePhoto.swift */; };
+		7E9E0C6A22A85F7800963E42 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E0C6922A85F7800963E42 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7E9E0C1922A84A9100963E42 /* SwiftUItestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUItestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9E0C1D22A84A9100963E42 /* SwiftUItestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUItestUITests.swift; sourceTree = "<group>"; };
 		7E9E0C1F22A84A9100963E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E9E0C6722A858AB00963E42 /* ProfilePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhoto.swift; sourceTree = "<group>"; };
+		7E9E0C6922A85F7800963E42 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				7E9E0C0922A84A9000963E42 /* Info.plist */,
 				7E9E0BFC22A84A8E00963E42 /* SwiftUItest.xcdatamodeld */,
 				7E9E0C0322A84A9000963E42 /* Preview Content */,
+				7E9E0C6722A858AB00963E42 /* ProfilePhoto.swift */,
+				7E9E0C6922A85F7800963E42 /* MapView.swift */,
 			);
 			path = SwiftUItest;
 			sourceTree = "<group>";
@@ -271,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E9E0BFE22A84A8E00963E42 /* SwiftUItest.xcdatamodeld in Sources */,
+				7E9E0C6A22A85F7800963E42 /* MapView.swift in Sources */,
 				7E9E0BF922A84A8E00963E42 /* AppDelegate.swift in Sources */,
 				7E9E0C0022A84A8E00963E42 /* ContentView.swift in Sources */,
 				7E9E0BFB22A84A8E00963E42 /* SceneDelegate.swift in Sources */,
+				7E9E0C6822A858AB00963E42 /* ProfilePhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
