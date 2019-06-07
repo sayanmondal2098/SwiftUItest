@@ -2,10 +2,9 @@
 //  MapView.swift
 //  SwiftUItest
 //
-//  Created by Sayan Mondal on 06/06/19.
+//  Created by Sayan Mondal on 07/06/19.
 //  Copyright © 2019 Sayan Mondal. All rights reserved.
 //
-
 
 import SwiftUI
 import MapKit

@@ -19,12 +19,13 @@ struct ContentView : View {
         
         VStack {
             MapView()
-                .edgesIgnoringSafeArea(.top)
+                .edgesIgnoringSafeArea(.all)
                 .frame(height: 300)
             
             ProfilePhoto().offset(y: -130)
                 .padding(.bottom, -130)
             
+            LOLERLOL()
             VStack (alignment: .leading, spacing: 5){
                 
                 Text("SAYAN").font(.largeTitle).bold().color(.black).italic()
@@ -35,6 +36,9 @@ struct ContentView : View {
                 }
                 }
                 .padding()
+            
+            
+            Spacer()
         }
         
         
